@@ -1,0 +1,111 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Salary",
+      "color": "#198754"
+    },
+    {
+      "id": "cat-2",
+      "name": "Freelance",
+      "color": "#0dcaf0"
+    },
+    {
+      "id": "cat-3",
+      "name": "Food & Dining",
+      "color": "#fd7e14"
+    },
+    {
+      "id": "cat-4",
+      "name": "Housing & Utilities",
+      "color": "#6f42c1"
+    },
+    {
+      "id": "cat-5",
+      "name": "Entertainment",
+      "color": "#e83e8c"
+    },
+    {
+      "id": "cat-6",
+      "name": "Shopping",
+      "color": "#ffc107"
+    },
+    { "id": "OTHERS", "name": "Others", "color": "#6c757d" }
+
+  ],
+  "transactions": [
+    {
+      "description": "House Rent",
+      "amount": 25000,
+      "type": "expense",
+      "categoryId": "cat-4",
+      "date": "2026-09-17",
+      "id": "Rjq8LkM6wYA"
+    },
+    {
+      "description": "Salary",
+      "amount": 100000,
+      "type": "income",
+      "categoryId": "cat-1",
+      "date": "2026-09-15",
+      "id": "RUn197dEkCA"
+    },
+    {
+      "description": "Freelance work",
+      "amount": 20000,
+      "type": "income",
+      "categoryId": "cat-2",
+      "date": "2026-09-16",
+      "id": "b3ndjsxsl4c"
+    },
+    {
+      "description": "Trip",
+      "amount": 5000,
+      "type": "expense",
+      "categoryId": "cat-3",
+      "date": "2026-09-17",
+      "id": "ieXVYXTMGnE"
+    },
+    {
+      "description": "Concert Ticket",
+      "amount": 1000,
+      "type": "expense",
+      "categoryId": "cat-5",
+      "date": "2026-09-18",
+      "id": "KmCogpnNG6U"
+    },
+    {
+      "description": "Income Tax",
+      "amount": 34000,
+      "type": "expense",
+      "categoryId": "OTHERS",
+      "date": "2026-09-07",
+      "id": "Nf1FW_jsBWU"
+    },
+    {
+      "description": "Salary",
+      "amount": 100000,
+      "type": "income",
+      "categoryId": "cat-1",
+      "date": "2026-08-01",
+      "id": "8nCmRBC3A1Y"
+    },
+    {
+      "description": "House Rent",
+      "amount": 25000,
+      "type": "expense",
+      "categoryId": "cat-4",
+      "date": "2026-08-04",
+      "id": "90wgiw1xbGM"
+    },
+    {
+      "description": "Groceries",
+      "amount": 5000,
+      "type": "expense",
+      "categoryId": "cat-6",
+      "date": "2026-08-02",
+      "id": "Ft4-pygYluE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
